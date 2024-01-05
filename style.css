@@ -1,2 +1,44 @@
 /* style.css */
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bighead {
+    color: limegreen;
+    background-color: black;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.unord {
+    color: violet;
+    background-color: aqua;
+    font-size: 22px;
+}
+
+.unord.ing {
+    color: gray;
+    background-color: navy;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.midhead {
+    color: red;
+    background-color: yellow;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.bodtext {
+    color: magenta;
+    background-color: brown;
+}
+
+#orded {
+    color: maroon;
+    background-color: aqua;
+    font-size: 22px;
+    font-weight: 750;
+}
