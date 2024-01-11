@@ -9,11 +9,22 @@ body {
     background-color: black;
     font-size: 32px;
     font-weight: bold;
+    text-align: center;
+    display: block;
+    margin: 50px;
+    padding: 10px 0px;
+    border: 10px;
 }
+
+.ulclass {
+width: 200px;
+margin: 0 auto;
+}
+
 
 .unord {
     color: violet;
-    background-color: aqua;
+        background-color: aqua;
     font-size: 22px;
 }
 
