@@ -2,30 +2,47 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: gray;
 }
 
+img {
+    width: auto;
+    margin: 20px 20px 10px 100px;
+    border: 10px darkolivegreen solid;
+}
+
+
 .bighead {
-    color: limegreen;
-    background-color: black;
+    color: green;
+    background-color: red;
     font-size: 32px;
     font-weight: bold;
     text-align: center;
     display: block;
     margin: 50px;
     padding: 10px 0px;
-    border: 10px;
+    border: 3px white solid;
 }
 
 .ulclass {
-width: 200px;
-margin: 0 auto;
+    border: 10px dotted orangered;
+    width: 200px;
+    margin: 0 auto;
+    padding:40px 30px 40px 40px;
 }
 
+.ingredlist {
+    width: 500px;
+    margin: 40px;
+}
 
 .unord {
     color: violet;
-        background-color: aqua;
+    background-color: aqua;
     font-size: 22px;
+    border: 1px black solid;
+    padding: 3px;
+    margin: 5px 2px;
 }
 
 .unord.ing {
@@ -33,23 +50,39 @@ margin: 0 auto;
     background-color: navy;
     font-weight: 500;
     font-size: 18px;
-}
+    border: 3px gold solid;
+    text-align: center;
+    margin: auto;
+    }
 
 .midhead {
-    color: red;
-    background-color: yellow;
+    color:gainsboro;
+    background-color: cadetblue;
     font-size: 28px;
+    text-decoration: underline;
     font-weight: 600;
+    width: 185px;
+    margin: left;
 }
 
 .bodtext {
+    width: 750px;
     color: magenta;
-    background-color: brown;
+    background-color: lightblue;
+    margin: auto;
 }
 
 #orded {
     color: maroon;
-    background-color: aqua;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 750;
+    width: 750px;
+    margin: auto;
+    }
+
+.ordcl {
+    background-color: lightblue;
+    border: 3px lightcoral dotted;
+    padding: 5px;
+    margin: 5px;
 }
